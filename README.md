@@ -97,7 +97,3 @@ This project uses **Vite** for rapid development with React:
 * ⚙️ **Backend:** *Ishan Sanjay* — [ishanstga@gmail.com](mailto:ishanstga@gmail.com)
 
 ---
-
-I can also create a **more visually appealing version** with emojis, colored badges, and “pro-style” sections like *Tech Stack badges*, *Installation badges*, and *Live Demo badges*—just like professional GitHub repos.
-
-Do you want me to do that next?
