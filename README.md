@@ -1,71 +1,55 @@
-# ⚡ My-Cal Frontend (React + Vite + TailwindCSS)
+⚡ My-Cal Frontend (React + Vite + TailwindCSS)
 
-A modern, responsive frontend built with **React (Vite)** and styled using **Tailwind CSS**.
-This app connects with the backend (developed by **Ishan Sanjay**) to provide calculator features with API integration.
+A modern, responsive calculator frontend built with React (Vite) and styled using Tailwind CSS.
+Connects seamlessly with the backend (developed by Ishan Sanjay) for real-time calculator functionality via API integration.
 
----
+📝 Overview
 
-## 📝 Description
+📌 Purpose: Provide a sleek, interactive frontend for a calculator application.
 
-* 📌 **Purpose:** Frontend interface for calculator application.
-* 🔗 **Backend:** Built with Spring Boot ishan sanjaya.
-* 🛠 **Technologies Used:** React ⚛️, Vite ⚡, TailwindCSS 🎨, Axios 🌐, React Router 🚦
+🔗 Backend: Built with Spring Boot by Ishan Sanjay.
 
----
+🛠 Tech Stack: React ⚛️, Vite ⚡, TailwindCSS 🎨, Axios 🌐, React Router 🚦
 
-## ✨ Features
+✨ Key Features
 
-* 🎨 Responsive UI with TailwindCSS
-* 🔗 API Integration with backend
-* 🔒 Authentication & Authorization (if implemented)
-* ⚡ Fast Refresh (HMR) with Vite
-* 🛑 Error handling & validation
+🎨 Responsive UI with TailwindCSS for all screen sizes.
 
----
+🔗 Backend API Integration for calculator operations.
 
-## ⚙️ Installation / Setup
+🔒 Authentication & Authorization support (if implemented).
 
-### ✅ Prerequisites
+⚡ Fast Refresh (HMR) powered by Vite for instant updates.
 
-* Node.js (v18+)
-* npm / yarn
+🛑 Error Handling & Input Validation to ensure reliability.
 
-### 🚀 Steps
+⚙️ Installation / Setup
+✅ Prerequisites
 
-```bash
-# Clone the repo
-git clone https://github.com/your-username/my-cal-frontend.git
-cd my-cal-frontend
+Node.js v18+
 
-# Install dependencies
-npm install
+npm or yarn
 
-# Run development server
+Frontend will be accessible at: 👉 http://localhost:5173
+
+🔍 Usage
+
+Run the app:
+
 npm run dev
-```
 
-Frontend will be available at: 👉 [http://localhost:5173](http://localhost:5173)
 
----
+Example workflow:
 
-## 🔍 Usage
+User inputs numbers and operations in the UI.
 
-* Start the app:
+Frontend sends a request to backend API (http://localhost:8081/api/calculator).
 
-  ```bash
-  npm run dev
-  ```
-* Example flow:
+Response is displayed instantly on the UI.
 
-  * User inputs values ➡️ frontend calls backend API (`http://localhost:8081/api/calculator`) ➡️ result displayed on UI
-
----
-
-## 📂 Project Structure
-
-```
+📂 Project Structure
 my-cal-frontend/
-│── public/            # Static assets
+│── public/            # Static assets (images, icons)
 │── src/
 │   ├── assets/        # Images, icons
 │   ├── components/    # Reusable UI components
@@ -73,43 +57,34 @@ my-cal-frontend/
 │   ├── services/      # Axios API calls
 │   ├── styles/        # Tailwind / global CSS
 │   ├── App.jsx        # Root component
-│   └── main.jsx       # Entry point
+│   └── main.jsx       # App entry point
 │── tailwind.config.js # Tailwind configuration
 │── package.json
 │── vite.config.js
-```
 
----
+🛠 React + Vite Notes
 
-## 🛠 React + Vite Notes
+This project uses Vite for rapid development with React:
 
-This template provides a minimal setup to get **React working in Vite** with HMR and ESLint rules.
+🔹 @vitejs/plugin-react → Babel-based Fast Refresh
 
-Currently, two official plugins are available:
+🔹 @vitejs/plugin-react-swc → SWC-based Fast Refresh (faster builds 🚀)
 
-* 🔹 `@vitejs/plugin-react` → uses Babel for Fast Refresh
-* 🔹 `@vitejs/plugin-react-swc` → uses SWC for Fast Refresh (faster builds 🚀)
+Pro Tip: For production apps, consider TypeScript + type-aware ESLint for better maintainability.
+Vite TS Template Guide
 
-👉 If developing for **production**, use **TypeScript** with type-aware ESLint rules.
-Check out the [TS template](https://vitejs.dev/guide/) to integrate **TypeScript** & `typescript-eslint`.
+🛤 Roadmap / Future Enhancements
 
----
+🔐 Add full authentication UI (login/signup)
 
-## 🛤 Roadmap / Future Improvements
+☁️ Deploy frontend to Vercel / Netlify
 
-* 🔐 Add authentication (login/signup UI)
-* ☁️ Deploy frontend (Vercel / Netlify)
-* 🧪 Add testing (Jest, React Testing Library)
-* 🎭 Improve UI/UX with animations (Framer Motion)
+🧪 Add unit and integration tests (Jest + React Testing Library)
 
+🎭 Enhance UI/UX with animations (Framer Motion)
 
+👥 Authors
 
----
+🎨 Frontend: Thushani Wanigasinghe — thushanimalsha42@gmail.com
 
-## 👥 Authors
-
-* 🎨 **Frontend:** *thushani wanigasinghe*
-* ⚙️ **Backend:** *Ishan Sanjay*
-
----
-
+⚙️ Backend: Ishan Sanjay — ishanstga@gmail.com
