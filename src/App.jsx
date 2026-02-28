@@ -185,7 +185,6 @@ export default function App() {
           </button>
         </div>
 
-       
         <button
           className="mt-5 w-full bg-zinc-800 hover:bg-zinc-700 transition p-2 rounded-xl font-semibold"
           onClick={() => setShowHistory(!showHistory)}
@@ -193,7 +192,6 @@ export default function App() {
           {showHistory ? "Hide History" : "Show History"}
         </button>
 
-    
         {showHistory && (
           <div className="mt-4 bg-zinc-800 p-3 rounded-xl max-h-40 overflow-y-auto text-sm scrollbar-thin scrollbar-thumb-zinc-700 scrollbar-track-zinc-900">
             {history.map((h) => (
