@@ -23,7 +23,6 @@ export default function App() {
       console.error(err);
     }
   };
-
   const handleCalculate = async () => {
     if (!valueOne || !valueTwo || !operation) return;
     try {
@@ -45,7 +44,6 @@ export default function App() {
     setOperation(null);
     setResult(null);
   };
-
   const handleBackspace = () => {
     if (valueTwo) setValueTwo(valueTwo.slice(0, -1));
     else if (operation) setOperation(null);
