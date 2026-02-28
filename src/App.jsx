@@ -185,7 +185,7 @@ export default function App() {
           </button>
         </div>
 
-        {/* History Toggle */}
+       
         <button
           className="mt-5 w-full bg-zinc-800 hover:bg-zinc-700 transition p-2 rounded-xl font-semibold"
           onClick={() => setShowHistory(!showHistory)}
